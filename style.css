@@ -63,7 +63,7 @@ h1, h2, h3 { font-weight: 800; line-height: 1.1; margin: 0; color: var(--ink); l
 .nav__inner { display: flex; align-items: center; justify-content: space-between; height: 72px; }
 .nav__brand { display: inline-flex; align-items: center; gap: 10px; font-size: 22px; font-weight: 800; color: var(--ink); letter-spacing: -.02em; }
 .nav__logo { width: 34px; height: 34px; }
-.nav__brand span { color: var(--blue-500); }
+.nav__name span { color: var(--blue-500); }
 .nav__links { display: flex; align-items: center; gap: 30px; font-size: 15px; font-weight: 500; }
 .nav__links a { color: var(--muted); transition: color .2s; }
 .nav__links a:hover { color: var(--blue-600); }
