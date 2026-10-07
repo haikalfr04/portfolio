@@ -1,0 +1,827 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Haikal Fikri Rabani | Portfolio</title>
+  <meta name="description" content="Portfolio of Haikal Fikri Rabani, an IT & Digital Risk Analyst with a background in data analytics and statistics.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=33">
+</head>
+<body>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#home" class="nav__brand">Haikal<span>.</span></a>
+      <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav__links" id="navLinks">
+        <a href="#about">Profile</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact" class="nav__cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home">
+      <div class="container hero__inner">
+        <div class="hero__text reveal">
+          <p class="hero__status"><span class="pulse"></span>Currently at BRI · Jakarta</p>
+          <p class="hero__hello">Hi there, I'm</p>
+          <h1 class="hero__name">Haikal Fikri<br>Rabani</h1>
+          <p class="hero__role">
+            <span class="hero__role-static">I work as a</span>
+            <span class="hero__role-rotate" id="roleRotate">Data Analyst</span>
+          </p>
+          <p class="hero__lead">
+            Statistics-driven analyst who turns raw data into <strong>clear, actionable insight</strong>.
+            My path runs from national surveys at <strong>BPS</strong> and campaign analytics at <strong>AnyMind</strong>
+            to service performance at <strong>Asuransi Astra</strong>, and now digital risk at <strong>BRI</strong>.
+          </p>
+          <div class="hero__actions">
+            <a href="#experience" class="btn btn--primary">
+              View Experience
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a href="#contact" class="btn btn--ghost">Let&#8217;s Connect</a>
+          </div>
+          <div class="cv-box">
+            <span class="cv-box__icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h4"/></svg>
+            </span>
+            <div class="cv-box__text">
+              <strong>Curriculum Vitae</strong>
+              <span>PDF · 180 KB</span>
+            </div>
+            <div class="cv-box__actions">
+              <a href="https://drive.google.com/file/d/1TQsNbaPC2TNrocEGcZn1mstKNmoIdLBz/view?usp=sharing" class="cv-box__btn cv-box__btn--ghost" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg>
+                View
+              </a>
+              <a href="assets/docs/cv-haikal-fikri-rabani.pdf" class="cv-box__btn" download="CV - Haikal Fikri Rabani.pdf">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>
+                Download
+              </a>
+            </div>
+          </div>
+          <dl class="hero__stats">
+            <div><dt>2</dt><dd>Years of<br>experience</dd></div>
+            <div><dt>4</dt><dd>Work<br>experiences</dd></div>
+            <div><dt>30+</dt><dd>Analysis decks<br>delivered</dd></div>
+            <div><dt>15+</dt><dd>Clients<br>supported</dd></div>
+            <div><dt>40+</dt><dd>Students<br>mentored</dd></div>
+            <div><dt>10+</dt><dd>Volunteer<br>roles</dd></div>
+          </dl>
+        </div>
+
+        <div class="hero__photo reveal">
+          <div class="photo">
+            <svg class="photo__ring" viewBox="0 0 200 200" aria-hidden="true">
+              <circle cx="100" cy="100" r="96"/>
+            </svg>
+            <div class="photo__frame">
+              <img src="assets/img/profile-head.png" alt="Portrait of Haikal Fikri Rabani" width="520" height="520">
+            </div>
+            <span class="chip chip--1" title="Python"><img src="assets/logos/skills/python.png" alt="Python"></span>
+            <span class="chip chip--2" title="SQL"><img src="assets/logos/skills/sql.png" alt="SQL"></span>
+            <span class="chip chip--3" title="Excel"><img src="assets/logos/skills/excel.png" alt="Excel"></span>
+            <span class="chip chip--4" title="Power BI"><img src="assets/logos/skills/microsoft-power-bi.svg" alt="Power BI"></span>
+            <span class="chip chip--5" title="R"><img src="assets/logos/skills/r-lang.svg" alt="R"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROFILE ============ -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">01 · Profile</p>
+          <h2>About Me</h2>
+        </div>
+
+        <div class="about reveal">
+          <div class="about__body">
+            <p>
+              I am an analyst with a strong foundation in statistics and data analysis, currently
+              working as an <strong>IT &amp; Digital Risk Analyst at PT Bank Rakyat Indonesia (Persero) Tbk</strong>.
+            </p>
+            <p>
+              My experience spans official statistics, digital marketing analytics, and customer
+              service performance. I process data with Excel, SPSS, R, and Python, then
+              communicate the results through dashboards, reports, and presentation decks for
+              stakeholders and clients.
+            </p>
+            <p>
+              Beyond work, I have led research and data teams at Universitas Indonesia, including
+              BEM UI's Research &amp; Development bureau and Pojok Statistik UI.
+            </p>
+          </div>
+
+          <ul class="about__facts">
+            <li><span>Based in</span>Tangerang Selatan, Banten</li>
+            <li><span>Open to</span>Opportunities across Jabodetabek</li>
+            <li><span>Education</span>B.Sc. Statistics, Universitas Indonesia</li>
+            <li><span>Focus</span>Data Analytics · Digital Risk</li>
+            <li><span>Tools</span>Excel · Python · R · SPSS · Looker Studio</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section section--alt" id="skills">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">02 · Skills</p>
+          <h2>Skills &amp; Tools</h2>
+        </div>
+
+        <div class="skillsets">
+          <div class="skillset reveal">
+            <div class="skillset__head">
+              <span class="soft__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4M7 12l3-3 2 2 4-4"/></svg></span>
+              <h3>Hard skills</h3>
+            </div>
+            <ul class="chips">
+            <li>Data Analyst</li>
+            <li>Market Research</li>
+            <li>AI/ML</li>
+            <li>Deep Learning</li>
+            <li>Business Intelligence</li>
+            </ul>
+          </div>
+          <div class="skillset reveal">
+            <div class="skillset__head">
+              <span class="soft__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><path d="M16 4.5a3.5 3.5 0 0 1 0 7M21.5 20a6.5 6.5 0 0 0-4-6"/></svg></span>
+              <h3>Soft skills</h3>
+            </div>
+            <ul class="chips">
+            <li>Leadership</li>
+            <li>Teamwork</li>
+            <li>Critical Thinking</li>
+            <li>Problem-Solving</li>
+            <li>Decision-Making</li>
+            <li>Communication</li>
+            </ul>
+          </div>
+        </div>
+
+        <h3 class="skills__label reveal">Tools I work with</h3>
+        <ul class="tools">
+          <li class="tool reveal">
+            <span class="tool__logo"><img src="assets/logos/skills/excel.png" alt="" loading="lazy"></span>
+            <strong>Excel</strong>
+            <span>Spreadsheet</span>
+          </li>
+          <li class="tool reveal">
+            <span class="tool__logo"><img src="assets/logos/skills/python.png" alt="" loading="lazy"></span>
+            <strong>Python</strong>
+            <span>Programming</span>
+          </li>
+          <li class="tool reveal">
+            <span class="tool__logo"><img src="assets/logos/skills/sql.png" alt="" loading="lazy"></span>
+            <strong>SQL</strong>
+            <span>Database</span>
+          </li>
+          <li class="tool reveal">
+            <span class="tool__logo"><img src="assets/logos/skills/r-lang.svg" alt="" loading="lazy"></span>
+            <strong>R</strong>
+            <span>Statistics</span>
+          </li>
+          <li class="tool reveal">
+            <span class="tool__logo"><img src="assets/logos/skills/microsoft-power-bi.svg" alt="" loading="lazy"></span>
+            <strong>Power BI</strong>
+            <span>Dashboard</span>
+          </li>
+          <li class="tool reveal">
+            <span class="tool__logo"><img src="assets/logos/skills/tableau-icon.svg" alt="" loading="lazy"></span>
+            <strong>Tableau</strong>
+            <span>Dashboard</span>
+          </li>
+          <li class="tool reveal">
+            <span class="tool__logo"><img src="assets/logos/skills/looker-icon.svg" alt="" loading="lazy"></span>
+            <strong>Looker Studio</strong>
+            <span>Dashboard</span>
+          </li>
+          <li class="tool reveal">
+            <span class="tool__logo"><img src="assets/logos/skills/html-5.svg" alt="" loading="lazy"></span>
+            <strong>HTML</strong>
+            <span>Web</span>
+          </li>
+          <li class="tool reveal">
+            <span class="tool__logo"><img src="assets/logos/skills/javascript.svg" alt="" loading="lazy"></span>
+            <strong>JavaScript</strong>
+            <span>Web</span>
+          </li>
+          <li class="tool reveal">
+            <span class="tool__logo"><img src="assets/logos/skills/latex.svg" alt="" loading="lazy"></span>
+            <strong>LaTeX</strong>
+            <span>Typesetting</span>
+          </li>
+          <li class="tool reveal">
+            <span class="tool__logo"><img src="assets/logos/skills/word.svg" alt="" loading="lazy"></span>
+            <strong>Word</strong>
+            <span>Document</span>
+          </li>
+          <li class="tool reveal">
+            <span class="tool__logo"><img src="assets/logos/skills/powerpoint.svg" alt="" loading="lazy"></span>
+            <strong>PowerPoint</strong>
+            <span>Presentation</span>
+          </li>
+          <li class="tool reveal">
+            <span class="tool__logo"><img src="assets/logos/skills/canva.svg" alt="" loading="lazy"></span>
+            <strong>Canva</strong>
+            <span>Design</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE (work / organization / volunteer) ============ -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">03 · Experience</p>
+          <h2>Experience</h2>
+        </div>
+
+        <nav class="subnav reveal" aria-label="Experience categories">
+          <a href="#work">Work</a>
+          <a href="#organization">Organization</a>
+          <a href="#volunteer">Volunteer</a>
+        </nav>
+
+        <div class="subsec" id="work">
+          <h3 class="subsec__title reveal">Work Experience <span>4</span></h3>
+        <div class="timeline">
+          <article class="card reveal">
+            <div class="card__logo"><img src="assets/logos/work/bri.svg" alt="BRI logo"></div>
+            <div class="card__content">
+              <header class="card__head">
+                <div>
+                  <h3>IT &amp; Digital Risk Analyst</h3>
+                  <p class="card__org">PT Bank Rakyat Indonesia (Persero) Tbk</p>
+                </div>
+                <div class="card__meta">
+                  <span class="tag tag--current">Current</span>
+                  <time>Sep 2026 – Present</time>
+                  <span>Jakarta · On-site</span>
+                </div>
+              </header>
+              <ul class="card__list">
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+                <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__logo"><img src="assets/logos/work/asuransi-astra.png" alt="Asuransi Astra logo"></div>
+            <div class="card__content">
+              <header class="card__head">
+                <div>
+                  <h3>Service Analyst</h3>
+                  <p class="card__org">Asuransi Astra</p>
+                </div>
+                <div class="card__meta">
+                  <span class="tag">Internship</span>
+                  <time>Feb 2026 – Aug 2026 · 7 mos</time>
+                  <span>South Jakarta · On-site</span>
+                </div>
+              </header>
+              <ul class="card__list">
+                <li>Processed and analyzed customer satisfaction data from key service journeys, including policy purchase, policy renewal, claims, and Garda Siaga services, to monitor customer experience and identify service improvement opportunities.</li>
+                <li>Processed and analyzed service performance data across branches to evaluate service delivery against established company standards and identify areas requiring improvement.</li>
+                <li>Processed and analyzed customer queue and service duration data to evaluate waiting times and service processing efficiency against established service standards.</li>
+                <li>Developed integrated service performance reports using Microsoft Excel and PowerPoint, consolidating customer satisfaction, SLA, and STS data for branch-level performance monitoring and evaluation.</li>
+                <li>Initiated and developed a Python- and HTML-based automation solution to streamline data processing and reporting workflows, reducing repetitive manual processes and improving operational efficiency within the Service Development team.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__logo"><img src="assets/logos/work/anymind.png" alt="AnyMind Group logo"></div>
+            <div class="card__content">
+              <header class="card__head">
+                <div>
+                  <h3>Data Analyst</h3>
+                  <p class="card__org">AnyMind Group</p>
+                </div>
+                <div class="card__meta">
+                  <span class="tag">Internship</span>
+                  <time>May 2025 – Dec 2025 · 8 mos</time>
+                  <span>Jakarta · Hybrid</span>
+                </div>
+              </header>
+              <ul class="card__list">
+                <li>Aggregated, cleaned, and automated cross-platform campaign performance data from Google Sheets covering Instagram, TikTok, X (Twitter), and YouTube, enabling consistent cross-platform performance analysis for client-facing evaluations.</li>
+                <li>Delivered 30+ KOL campaign analysis decks for 15+ brand and agency clients, translating raw performance metrics into actionable insights and strategic recommendations used in client presentations and post-campaign optimization.</li>
+                <li>Built and maintained an end-to-end internal analytics dashboard in Google Looker Studio, providing periodic visibility into key KPIs including reach, impressions, engagement rate, and content performance across active campaigns.</li>
+                <li>Conducted comparative and trend analysis across platforms to identify top-performing KOLs, content formats, and media channels, supporting data-driven campaign planning and optimization decisions.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__logo"><img src="assets/logos/work/bps.jpg" alt="Badan Pusat Statistik logo"></div>
+            <div class="card__content">
+              <header class="card__head">
+                <div>
+                  <h3>Survey Development Analyst</h3>
+                  <p class="card__org">Badan Pusat Statistik (BPS)</p>
+                </div>
+                <div class="card__meta">
+                  <span class="tag">Internship</span>
+                  <time>Dec 2024 – Feb 2025 · 3 mos</time>
+                  <span>Jakarta · Hybrid</span>
+                </div>
+              </header>
+              <ul class="card__list">
+                <li>Analyzed and refined survey variables and key indicators for national-level census and household surveys, including SUSENAS and the Economic Census, using Excel, SPSS, and R to ensure methodological consistency and data quality for official statistical reporting.</li>
+                <li>Performed spatial data analysis to process and interpret geographically referenced survey data, supporting regional-level assessments and comparative analysis across administrative areas.</li>
+                <li>Applied regression and statistical forecasting techniques to weather and survey-related datasets to identify patterns and trends, enabling data-driven interpretation for analytical reports and internal evaluations.</li>
+                <li>Collaborated with statisticians and senior researchers in validating datasets, conducting analysis, and preparing documentation contributing to internal reports and potential BPS publications.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+        </div>
+
+        <div class="subsec" id="organization">
+          <h3 class="subsec__title reveal">Organizational Experience <span>2</span></h3>
+        <div class="timeline">
+          <article class="card reveal">
+            <div class="card__logo"><img src="assets/logos/organization/bem-ui.jpg" alt="BEM UI logo"></div>
+            <div class="card__content">
+              <header class="card__head">
+                <div>
+                  <h3>Research and Development</h3>
+                  <p class="card__org">Badan Eksekutif Mahasiswa Universitas Indonesia (BEM UI)</p>
+                </div>
+                <div class="card__meta">
+                  <time>Feb 2024 – Nov 2024 · 10 mos</time>
+                </div>
+              </header>
+              <ul class="card__list">
+                <li>Led a team of 11 to conduct market research, data processing, and strategic analysis, delivering actionable recommendations to 15 bureaus across BEM UI programs and initiatives.</li>
+                <li>Developed progress reports and strategic pitch decks using structured analytical frameworks to identify issues across 15 bureaus and recommend prioritized interventions for program execution.</li>
+                <li>Built and maintained reporting workflows using Excel and Google Looker Studio, translating survey and program data into clear insights for leadership and bureau coordination.</li>
+                <li>Organized a data science and analysis event for 7 faculty-level R&amp;D bureaus, featuring speakers from PwC and Astra, to strengthen organizational data literacy and analytics adoption.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__logo"><img src="assets/logos/organization/pojok-statistik-ui.jpg" alt="Pojok Statistik UI logo"></div>
+            <div class="card__content">
+              <header class="card__head">
+                <div>
+                  <h3>Chairperson &amp; Coordinator</h3>
+                  <p class="card__org">Pojok Statistik UI</p>
+                </div>
+                <div class="card__meta">
+                  <time>Sep 2023 – Sep 2024 · 1 yr 1 mo</time>
+                  <span>Depok, West Java · On-site</span>
+                </div>
+              </header>
+              <ul class="card__list">
+                <li>Supervised a 20-member team in creating and presenting data analysis via infographics and videographics.</li>
+                <li>Developed infographics and videographics based on data from the Central Bureau of Statistics.</li>
+                <li>Conducted data analysis from BPS sources.</li>
+                <li>Organized skill upgrades on infographic and videographic creation with BPS West Java experts.</li>
+                <li>Conducted a working visit to BPS West Java to introduce the Pojok Statistik initiative.</li>
+                <li>Conducted comparative studies with other university Pojok Statistik programs.</li>
+                <li>Provided data analysis consulting services, producing comprehensive reports for students, faculty, and the public.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+        </div>
+
+        <div class="subsec" id="volunteer">
+          <h3 class="subsec__title reveal">Volunteer Experience <span>10</span></h3>
+        <ul class="vgrid">
+          <li class="vcard reveal">
+            <img src="assets/logos/volunteer/hmd-matematika.png" alt="HMD Matematika FMIPA UI logo" loading="lazy">
+            <h3>Staff &amp; Expert Staff of Adkesma</h3>
+            <p class="vcard__org">HMD Matematika FMIPA UI</p>
+            <time>Mar 2023 – Feb 2025</time>
+          </li>
+          <li class="vcard reveal">
+            <img src="assets/logos/volunteer/pdm.png" alt="PDM logo" loading="lazy">
+            <h3>Mentor</h3>
+            <p class="vcard__org">Pengenalan Departemen Matematika 2024</p>
+            <time>Aug 2024 – Oct 2024</time>
+          </li>
+          <li class="vcard reveal">
+            <img src="assets/logos/volunteer/math-cup.png" alt="Math Cup 2023 logo" loading="lazy">
+            <h3>Games</h3>
+            <p class="vcard__org">Math Cup 2023</p>
+            <time>Feb 2023 – Sep 2023</time>
+          </li>
+          <li class="vcard reveal">
+            <img src="assets/logos/volunteer/oim-matek.png" alt="OIM MATEK UI 2023 logo" loading="lazy">
+            <h3>Documentation</h3>
+            <p class="vcard__org">OIM MATEK UI 2023</p>
+            <time>Feb 2023 – Sep 2023</time>
+          </li>
+          <li class="vcard reveal">
+            <img src="assets/logos/volunteer/okk-ui.png" alt="OKK UI 2023 logo" loading="lazy">
+            <h3>Mentor</h3>
+            <p class="vcard__org">OKK UI 2023</p>
+            <time>May 2023 – Aug 2023</time>
+          </li>
+          <li class="vcard reveal">
+            <img src="assets/logos/volunteer/forsil.png" alt="FORSIL 2022 logo" loading="lazy">
+            <h3>Logistic</h3>
+            <p class="vcard__org">FORSIL Departemen Matematika UI</p>
+            <time>Feb 2023 – Aug 2023</time>
+          </li>
+          <li class="vcard reveal">
+            <img src="assets/logos/volunteer/muw.png" alt="Moonzher University Week logo" loading="lazy">
+            <h3>Mentor &amp; Logistic</h3>
+            <p class="vcard__org">Moonzher University Week</p>
+            <time>Jan 2023 – Feb 2023</time>
+          </li>
+          <li class="vcard reveal">
+            <img src="assets/logos/volunteer/tossaka.png" alt="TOSSAKA logo" loading="lazy">
+            <h3>Roadshow</h3>
+            <p class="vcard__org">TOSSAKA</p>
+            <time>Sep 2022 – Jan 2023</time>
+          </li>
+          <li class="vcard reveal">
+            <img src="assets/logos/volunteer/gdsc.png" alt="GDSC logo" loading="lazy">
+            <h3>Volunteer</h3>
+            <p class="vcard__org">GDSC</p>
+            <time>Aug 2022 – Dec 2022</time>
+          </li>
+          <li class="vcard reveal">
+            <img src="assets/logos/volunteer/forkoma-banten.png" alt="Forkoma UI Banten logo" loading="lazy">
+            <h3>Member</h3>
+            <p class="vcard__org">Forkoma UI Banten</p>
+            <time>Aug 2022 – Nov 2022</time>
+          </li>
+        </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section section--alt" id="projects">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">04 · Projects</p>
+          <h2>Projects</h2>
+        </div>
+
+        <div class="subsec" id="college-projects">
+          <div class="subsec__row reveal">
+            <h3 class="subsec__title">College Projects <span>6</span></h3>
+            <div class="scroller__nav">
+              <button class="scroller__btn" type="button" data-dir="-1" aria-label="Previous projects"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+              <button class="scroller__btn" type="button" data-dir="1" aria-label="Next projects"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+            </div>
+          </div>
+          <div class="scroller reveal">
+            <article class="project">
+              <a class="project__cover" href="https://drive.google.com/file/d/1OaHyEH669ZgYnnscr_rpKA7pKSKtRJy7/view?usp=sharing" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+                <img src="assets/img/projects/statistical-consulting.jpg" alt="" loading="lazy">
+              </a>
+              <div class="project__body">
+                <p class="project__course">Statistical Consulting · 2025</p>
+                <h4 class="project__title">Statistical Consulting</h4>
+                <p class="project__text">A fraud detection study for Metra Digital Media using mobile ad traffic data. We cleaned a 1M-row sample (4.4 GB), built rule-based flags for high activity, invalid locations, and impossible travel, then trained an XGBoost model that reached about <strong>80% recall</strong>, with a tiering system to keep false positives in check.</p>
+                <ul class="project__tags"><li>Python</li><li>XGBoost</li><li>Fraud Detection</li></ul>
+                <a class="project__link" href="https://drive.google.com/file/d/1OaHyEH669ZgYnnscr_rpKA7pKSKtRJy7/view?usp=sharing" target="_blank" rel="noopener">View on Drive <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a>
+              </div>
+            </article>
+            <article class="project">
+              <a class="project__cover" href="https://drive.google.com/file/d/1nIf-ILyogDxOJ9LjnaTjBrxZNmhAFAa2/view?usp=sharing" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+                <img src="assets/img/projects/vit-chatbot.jpg" alt="" loading="lazy">
+              </a>
+              <div class="project__body">
+                <p class="project__course">Computational Intelligence · Final Project</p>
+                <h4 class="project__title">Vision Transformer Chatbot for Eye Disease &amp; Cancer Detection</h4>
+                <p class="project__text">A web chatbot where users upload a retinal fundus or tissue image and get a prediction with an easy explanation. Vision Transformer models were trained on AMDNet23 and LC25000, reaching <strong>95% accuracy</strong> on fundus images, while the Gemini API handles the conversation.</p>
+                <ul class="project__tags"><li>Vision Transformer</li><li>Gemini API</li><li>Web App</li></ul>
+                <a class="project__link" href="https://drive.google.com/file/d/1nIf-ILyogDxOJ9LjnaTjBrxZNmhAFAa2/view?usp=sharing" target="_blank" rel="noopener">View on Drive <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a>
+              </div>
+            </article>
+            <article class="project">
+              <a class="project__cover" href="https://drive.google.com/file/d/1oJ-zZrCM03VeOd8NSdi60IZKhIYD3zSt/view?usp=sharing" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+                <img src="assets/img/projects/resnet-retina.jpg" alt="" loading="lazy">
+              </a>
+              <div class="project__body">
+                <p class="project__course">Computational Intelligence · Midterm</p>
+                <h4 class="project__title">ResNet for Retinal Image Classification in Python &amp; Rust</h4>
+                <p class="project__text">Compared ResNet-18, ResNet-50, and ResNet-152 for detecting age-related macular degeneration from fundus images, built in both Python and Rust. ResNet-18 came out on top in both, with <strong>92% accuracy in Python</strong> and 99.75% in Rust, although the Rust run showed signs of overfitting.</p>
+                <ul class="project__tags"><li>CNN</li><li>ResNet</li><li>Python</li><li>Rust</li></ul>
+                <a class="project__link" href="https://drive.google.com/file/d/1oJ-zZrCM03VeOd8NSdi60IZKhIYD3zSt/view?usp=sharing" target="_blank" rel="noopener">View on Drive <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a>
+              </div>
+            </article>
+            <article class="project">
+              <a class="project__cover" href="https://drive.google.com/file/d/1IEymLQXwVP5kNyQvV3WHBriJdsFo_wYw/view?usp=sharing" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+                <img src="assets/img/projects/web-mining-sentiment.jpg" alt="" loading="lazy">
+              </a>
+              <div class="project__body">
+                <p class="project__course">Web Mining · Final Project</p>
+                <h4 class="project__title">Public Sentiment on the 2025 Budget Efficiency Policy</h4>
+                <p class="project__text">Analyzed posts on X about Presidential Instruction No. 1/2025. A fine-tuned IndoBERT model (<strong>82% accuracy</strong>) labeled around 7,000 tweets as positive, negative, or neutral, and BERTopic surfaced the main themes, led by budgets for special staff and public services.</p>
+                <ul class="project__tags"><li>IndoBERT</li><li>BERTopic</li><li>NLP</li></ul>
+                <a class="project__link" href="https://drive.google.com/file/d/1IEymLQXwVP5kNyQvV3WHBriJdsFo_wYw/view?usp=sharing" target="_blank" rel="noopener">View on Drive <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a>
+              </div>
+            </article>
+            <article class="project">
+              <a class="project__cover" href="https://drive.google.com/file/d/1axzUOyIRvletkv2K8q39xbbSu3iHyeAM/view?usp=sharing" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+                <img src="assets/img/projects/genomic-data-science.jpg" alt="" loading="lazy">
+              </a>
+              <div class="project__body">
+                <p class="project__course">Genomic Data Science · 2025</p>
+                <h4 class="project__title">Genomic Data Science</h4>
+                <p class="project__text">Classification and clustering on gene expression data from alcoholic hepatitis patients (GEO GDS5047). After filtering genes with limma, we compared SVM, Random Forest, Naive Bayes, and XGBoost, where a <strong>linear SVM separated the groups perfectly</strong>, then used hierarchical clustering and biclustering to find gene groups with distinct patterns.</p>
+                <ul class="project__tags"><li>R</li><li>Bioinformatics</li><li>SVM</li><li>Clustering</li></ul>
+                <a class="project__link" href="https://drive.google.com/file/d/1axzUOyIRvletkv2K8q39xbbSu3iHyeAM/view?usp=sharing" target="_blank" rel="noopener">View on Drive <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a>
+              </div>
+            </article>
+            <article class="project">
+              <a class="project__cover" href="https://drive.google.com/file/d/1UVNKL6JLr9vnsz-9IP9WXcDfwXelLg8W/view?usp=sharing" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+                <img src="assets/img/projects/mobile-banking-database.jpg" alt="" loading="lazy">
+              </a>
+              <div class="project__body">
+                <p class="project__course">Database for Data Science · 2024</p>
+                <h4 class="project__title">Mobile Banking Database</h4>
+                <p class="project__text">Designed a relational database for a bank&#8217;s mobile banking transactions, from the ER diagram and normalization to the SQL implementation. We also built a simple GUI so users can record transactions and pull up account statements quickly.</p>
+                <ul class="project__tags"><li>SQL</li><li>ERD</li><li>Database Design</li></ul>
+                <a class="project__link" href="https://drive.google.com/file/d/1UVNKL6JLr9vnsz-9IP9WXcDfwXelLg8W/view?usp=sharing" target="_blank" rel="noopener">View on Drive <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="subsec" id="personal-projects">
+          <div class="subsec__row reveal">
+            <h3 class="subsec__title">Personal Projects <span>4</span></h3>
+            <div class="scroller__nav">
+              <button class="scroller__btn" type="button" data-dir="-1" aria-label="Previous projects"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+              <button class="scroller__btn" type="button" data-dir="1" aria-label="Next projects"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+            </div>
+          </div>
+          <div class="scroller reveal">
+            <article class="project">
+              <a class="project__cover" href="https://haikalfr04.github.io/Sales-Dashboard/" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+                <img src="assets/img/projects/sales-dashboard.jpg" alt="" loading="lazy">
+              </a>
+              <div class="project__body">
+                <p class="project__course">Business Intelligence · Web</p>
+                <h4 class="project__title">Nusantara Retail Sales Dashboard</h4>
+                <p class="project__text">An interactive dashboard in the style of Power BI for a simulated Indonesian retailer, covering about 26,000 transactions from 2023 to 2025. It tracks sales against targets, products, customer retention, and sales by province on a map, with click-to-filter charts, period comparison, and dark mode.</p>
+                <ul class="project__tags"><li>JavaScript</li><li>ECharts</li><li>Dashboard</li></ul>
+                <div class="project__links">
+                  <a class="project__link" href="https://haikalfr04.github.io/Sales-Dashboard/" target="_blank" rel="noopener">Live demo <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a>
+                  <a class="project__link project__link--ghost" href="https://github.com/haikalfr04/Sales-Dashboard" target="_blank" rel="noopener"><img src="assets/logos/contact/github.png" alt=""> GitHub</a>
+                </div>
+              </div>
+            </article>
+            <article class="project">
+              <a class="project__cover" href="https://github.com/haikalfr04/Stocks-Prediction" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+                <img src="assets/img/projects/stocks-prediction.jpg" alt="" loading="lazy">
+              </a>
+              <div class="project__body">
+                <p class="project__course">Machine Learning · Time Series</p>
+                <h4 class="project__title">IDX Stock Return Prediction 2026</h4>
+                <p class="project__text">Predicts next-day returns for ASII, BBRI, and TLKM across 2026 with Ridge regression and LightGBM, then tests them against simple baselines and a trading backtest after fees. The honest result: <strong>no model beat chance</strong> on daily direction, and the price forecasts were no better than &#8220;tomorrow equals today&#8221;.</p>
+                <ul class="project__tags"><li>Python</li><li>LightGBM</li><li>Backtesting</li></ul>
+                <div class="project__links">
+                  <a class="project__link" href="https://github.com/haikalfr04/Stocks-Prediction" target="_blank" rel="noopener">View on GitHub <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a>
+                </div>
+              </div>
+            </article>
+            <article class="project">
+              <a class="project__cover" href="https://github.com/haikalfr04/Sentiment-Analysis" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+                <img src="assets/img/projects/sentiment-analysis.jpg" alt="" loading="lazy">
+              </a>
+              <div class="project__body">
+                <p class="project__course">NLP · Deep Learning</p>
+                <h4 class="project__title">Movie Review Sentiment Analysis with Transformers</h4>
+                <p class="project__text">Classifies IMDB movie reviews as positive or negative, comparing TF-IDF with logistic regression against fine-tuned DistilBERT and RoBERTa. RoBERTa reached <strong>95.67% accuracy</strong> with 55% fewer errors than the baseline, and keeping the end of long reviews cut DistilBERT&#8217;s errors by 17%.</p>
+                <ul class="project__tags"><li>Python</li><li>PyTorch</li><li>Transformers</li></ul>
+                <div class="project__links">
+                  <a class="project__link" href="https://github.com/haikalfr04/Sentiment-Analysis" target="_blank" rel="noopener">View on GitHub <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a>
+                </div>
+              </div>
+            </article>
+            <article class="project">
+              <a class="project__cover" href="https://github.com/haikalfr04/Clustering" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+                <img src="assets/img/projects/product-clustering.jpg" alt="" loading="lazy">
+              </a>
+              <div class="project__body">
+                <p class="project__course">Machine Learning · Clustering</p>
+                <h4 class="project__title">Product Clustering on PriceRunner Data</h4>
+                <p class="project__text">Groups 35,311 e-commerce products from the PriceRunner dataset with K-Means. After encoding and scaling the features, the Elbow Method and Silhouette Score pointed to <strong>7 clusters (silhouette 0.58)</strong>, and a PCA plot shows how clearly the groups separate.</p>
+                <ul class="project__tags"><li>Python</li><li>scikit-learn</li><li>K-Means</li><li>PCA</li></ul>
+                <div class="project__links">
+                  <a class="project__link" href="https://github.com/haikalfr04/Clustering" target="_blank" rel="noopener">View on GitHub <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">05 · Education</p>
+          <h2>Education</h2>
+        </div>
+
+        <article class="edu reveal">
+          <div class="edu__top">
+            <div class="edu__logo"><img src="assets/logos/education/ui.png" alt="Universitas Indonesia logo"></div>
+            <div class="edu__main">
+              <h3>Bachelor of Statistics</h3>
+              <p class="edu__school">Universitas Indonesia · Faculty of Mathematics and Natural Sciences</p>
+              <p class="edu__meta">Aug 2022 – Aug 2026 · Depok, West Java</p>
+            </div>
+            <div class="edu__gpa">
+              <strong>3.54</strong>
+              <span>GPA / 4.00</span>
+            </div>
+          </div>
+
+          <div class="thesis">
+            <p class="thesis__label">Undergraduate Thesis</p>
+            <h4 class="thesis__title">Development of a Joint Document Level Sentiment-Topic Model Based on Extended Long Short-Term Memory for Sentiment Analysis</h4>
+            <p class="thesis__id"><em>Pengembangan Joint Document Level Sentiment-Topic Model Berbasis Extended Long Short-Term Memory untuk Analisis Sentimen</em></p>
+            <p class="thesis__text">
+              Most sentiment analysis gives a whole review a single label, even though one review often talks about several
+              things with different opinions. My thesis builds a model that learns <strong>sentiment and topics at the same time</strong>.
+              It uses <strong>xLSTM</strong> (Extended LSTM), pre-trained as an autoencoder, to represent text; a shared encoder then
+              feeds both a sentiment classifier and a <strong>Deep Embedded K-Means</strong> topic detector through multi-task learning.
+            </p>
+            <p class="thesis__text">
+              Tested on IMDB and Yelp reviews, every xLSTM configuration outperformed the LSTM baselines on sentiment,
+              with the best reaching <strong>88.75% accuracy on IMDB</strong> and <strong>92.01% on Yelp</strong>, and it also
+              produced the most coherent topics on IMDB.
+            </p>
+            <div class="thesis__foot">
+              <ul class="thesis__tags">
+                <li>NLP</li><li>Deep Learning</li><li>xLSTM</li><li>Multi-Task Learning</li><li>Topic Modeling</li>
+              </ul>
+              <div class="thesis__actions">
+                <a href="https://drive.google.com/file/d/101OYHMdgOY2UHiTGy8q_FdmXXXSXYS-L/view?usp=sharing" class="cv-box__btn cv-box__btn--ghost" target="_blank" rel="noopener">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg>
+                  View presentation
+                </a>
+                <a href="assets/docs/thesis-haikal-fikri-rabani.pdf" class="cv-box__btn" download="Thesis - Haikal Fikri Rabani.pdf">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>
+                  Download thesis <small>PDF · 7.4 MB</small>
+                </a>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ CERTIFICATIONS ============ -->
+    <section class="section section--alt" id="certifications">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">06 · Certifications</p>
+          <h2>Licenses &amp; Certifications</h2>
+        </div>
+
+        <div class="certs">
+          <article class="cert reveal">
+            <div class="cert__top">
+              <div class="cert__logo"><img src="assets/logos/certifications/bnsp.png" alt="BNSP logo"></div>
+              <div>
+                <h3>Associate Data Scientist</h3>
+                <p class="cert__issuer">Badan Nasional Sertifikasi Profesi (BNSP)</p>
+                <p class="cert__date">Issued Aug 2025 · Expires Aug 2028</p>
+              </div>
+            </div>
+            <div class="cert__panel">
+              <div>
+                <p class="cert__panel-label">Competency</p>
+                <p class="cert__panel-value">Data Management System</p>
+                <p class="cert__panel-note">National professional certification, valid for 3 years.</p>
+              </div>
+              <a class="cert__paper" href="assets/img/certificates/bnsp-associate-data-scientist.jpg" target="_blank" rel="noopener" aria-label="View BNSP certificate">
+                <img src="assets/img/certificates/bnsp-associate-data-scientist.jpg" alt="BNSP Associate Data Scientist certificate" loading="lazy">
+                <span>View certificate</span>
+              </a>
+            </div>
+            <ul class="cert__tags"><li>Python</li><li>Data Analysis</li></ul>
+          </article>
+
+          <article class="cert reveal">
+            <div class="cert__top">
+              <div class="cert__logos">
+                <div class="cert__logo"><img src="assets/logos/certifications/englishvit.png" alt="Englishvit logo"></div>
+                <div class="cert__logo"><img src="assets/logos/certifications/toefl.png" alt="TOEFL logo"></div>
+              </div>
+              <div>
+                <h3>TOEFL ITP Standard Test</h3>
+                <p class="cert__issuer">Englishvit</p>
+                <p class="cert__date">Issued Oct 2026 · Expires Oct 2028</p>
+              </div>
+            </div>
+            <div class="cert__panel">
+              <div>
+                <p class="cert__panel-label">Total Score</p>
+                <p class="cert__panel-value">527</p>
+                <p class="cert__panel-note">Listening 50 · Structure 34 · Reading 13</p>
+              </div>
+              <a class="cert__paper cert__paper--landscape" href="assets/img/certificates/englishvit-toefl.jpg" target="_blank" rel="noopener" aria-label="View TOEFL certificate">
+                <img src="assets/img/certificates/englishvit-toefl.jpg" alt="Englishvit TOEFL certificate" loading="lazy">
+                <span>View certificate</span>
+              </a>
+            </div>
+            <ul class="cert__tags"><li>English Proficiency</li><li>Online Test</li></ul>
+          </article>
+          <article class="cert reveal">
+            <div class="cert__top">
+              <div class="cert__logo"><img src="assets/logos/certifications/myskill.png" alt="MySkill logo"></div>
+              <div>
+                <h3>Data Analyst</h3>
+                <p class="cert__issuer">MySkill · Data Analysis Fullstack Intensive Bootcamp</p>
+                <p class="cert__date">Issued Sep 2024</p>
+              </div>
+            </div>
+            <a class="cert__preview" href="assets/img/certificates/myskill-data-analysis.jpg" target="_blank" rel="noopener">
+              <img src="assets/img/certificates/myskill-data-analysis.jpg" alt="MySkill Data Analysis Fullstack Intensive Bootcamp certificate" loading="lazy">
+              <span>View certificate</span>
+            </a>
+            <ul class="cert__tags"><li>Batch 17</li><li>Jul – Aug 2024</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER / CONTACT ============ -->
+  <footer class="footer" id="contact">
+    <div class="container footer__top">
+      <div class="footer__head">
+        <p class="eyebrow eyebrow--light">Contact</p>
+        <h2>Let's connect.</h2>
+        <p class="footer__lead">Open to conversations about data, analytics, and digital risk.</p>
+      </div>
+
+      <ul class="contacts">
+        <li>
+          <a class="contact" title="Email" href="mailto:haikalfr04@gmail.com">
+            <span class="contact__icon"><img src="assets/logos/contact/gmail.png" alt=""></span>
+            <span class="contact__text">haikalfr04@gmail.com</span>
+          </a>
+        </li>
+        <li>
+          <a class="contact" title="WhatsApp" href="https://wa.me/6287877975001" target="_blank" rel="noopener">
+            <span class="contact__icon"><img src="assets/logos/contact/whatsapp.png" alt=""></span>
+            <span class="contact__text">+62 878-7797-5001</span>
+          </a>
+        </li>
+        <li>
+          <a class="contact" title="LinkedIn" href="https://www.linkedin.com/in/haikalfr/" target="_blank" rel="noopener">
+            <span class="contact__icon"><img src="assets/logos/contact/linkedin.png" alt=""></span>
+            <span class="contact__text">in/haikalfr</span>
+          </a>
+        </li>
+        <li>
+          <a class="contact" title="Instagram" href="https://www.instagram.com/ig_haikalfr/" target="_blank" rel="noopener">
+            <span class="contact__icon"><img src="assets/logos/contact/instagram.png" alt=""></span>
+            <span class="contact__text">@ig_haikalfr</span>
+          </a>
+        </li>
+        <li>
+          <a class="contact" title="GitHub" href="https://github.com/haikalfr04" target="_blank" rel="noopener">
+            <span class="contact__icon"><img src="assets/logos/contact/github.png" alt=""></span>
+            <span class="contact__text">haikalfr04</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="container footer__bottom">
+      <span>© <span id="year">2026</span> Haikal Fikri Rabani. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <script src="script.js?v=6"></script>
+</body>
+</html>
